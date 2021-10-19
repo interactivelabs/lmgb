@@ -1,11 +1,13 @@
-const Footer = () => (
-  <footer className="flex items-center justify-center w-full h-24">
-    <a className="flex items-center justify-center" href="/about">
-      luis@lmgb.com
-    </a>
-    <a>LinkedIn</a>
-    <a>Youtube</a>
-  </footer>
-);
+import { getFooterOptions } from '../lib/linkOptions';
+import SimpleDivideNav from './SimpleDivideNav';
+
+const Footer = () => {
+  const FOOTER_OPTIONS = getFooterOptions();
+  return (
+    <footer className="flex items-center justify-center w-full h-24 divide-x">
+      <SimpleDivideNav options={FOOTER_OPTIONS} />
+    </footer>
+  );
+};
 
 export default Footer;
