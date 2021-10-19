@@ -8,7 +8,7 @@ export const getHeaderOptions = (lang: Lang) => [
   },
   {
     href: '/office',
-    text: lang === Lang.EN ? 'Office Hours' : 'Horarios de asesorías',
+    text: lang === Lang.EN ? 'Office Hours' : 'Asesorías',
     id: 'header_optios_2',
   },
 ];
