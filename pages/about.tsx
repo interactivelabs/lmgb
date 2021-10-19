@@ -1,14 +1,14 @@
-import React from 'react';
-import MainLayout from '../components/MainLayout';
+import React, { useContext } from "react";
+import MainLayout from "../components/MainLayout";
+import AboutEn from "../components/pages/about_en";
+import AboutEs from "../components/pages/about_es";
+import { Lang, SiteContext } from "../lib/SiteContext";
 
-const About = () => (
-  <MainLayout>
-    <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-      <div className="md:w-1/2 lg:w-1/3">
-        <p className="mt-3 text-2xl">ABOUT</p>
-      </div>
-    </main>
-  </MainLayout>
-);
+const About = () => {
+  const { lang } = useContext(SiteContext);
+  return (
+    <MainLayout>{lang === Lang.EN ? <AboutEn /> : <AboutEs />}</MainLayout>
+  );
+};
 
 export default About;
