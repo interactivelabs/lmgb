@@ -1,5 +1,8 @@
+import Image from 'next/image';
 import LinkText from '../LinkText';
 import PageLangLayout from './PageLangLayout';
+import desk from '../../public/img/desk.jpeg';
+import fall from '../../public/img/fall.jpeg';
 
 const AboutEn = () => (
   <PageLangLayout>
@@ -26,6 +29,9 @@ const AboutEn = () => (
         </LinkText>
         )
       </p>
+      <div className="mt-4">
+        <Image src={desk} alt="Picture of my current desk at home" />
+      </div>
       <p className="mt-4">
         Even before joining my college degree I had tremendous passion for
         software, my first programming language was{' '}
@@ -64,15 +70,20 @@ const AboutEn = () => (
         live and if you can you should totally see your favs also live,
         it&apos;s really special.
       </p>
-      <p className="mt-4">
-        Also I&apos;m a father of 2 girls, so we always do what the ladies say
-        at home, that didn&apos;t happened before, my wife is quite an
-        accomplished leader, I owe to her being able to cease some of the
-        opportunities that have come my way, the best formula for growth is to
-        have a partner that supports and encourages you. We moved to near
-        Seattle, WA about 1 year ago and we&apos;ve enjoyed quite a lot around
-        here.
-      </p>
+      <div className="flex flex-wrap mt-4">
+        <div className="w-full md:w-1/2 pr-4">
+          <Image src={fall} alt="Picture of me and my girl walking" />
+        </div>
+        <p className="w-full md:w-1/2">
+          Also I&apos;m a father of 2 girls, so we always do what the ladies say
+          at home, that didn&apos;t happened before, my wife is quite an
+          accomplished leader, I owe to her being able to cease some of the
+          opportunities that have come my way, the best formula for growth is to
+          have a partner that supports and encourages you. We moved to near
+          Seattle, WA about 1 year ago and we&apos;ve enjoyed quite a lot around
+          here.
+        </p>
+      </div>
       <p className="mt-4">
         Finally something I&apos;ve always loved is to be able to help people
         that might be interested in entering or growing in the Software

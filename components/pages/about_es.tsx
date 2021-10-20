@@ -1,5 +1,8 @@
+import Image from 'next/image';
 import LinkText from '../LinkText';
 import PageLangLayout from './PageLangLayout';
+import desk from '../../public/img/desk.jpeg';
+import fall from '../../public/img/fall.jpeg';
 
 const AboutEs = () => (
   <PageLangLayout>
@@ -26,6 +29,9 @@ const AboutEs = () => (
         </LinkText>
         ).
       </p>
+      <div className="mt-4">
+        <Image src={desk} alt="Picture of my current desk at home" />
+      </div>
       <p className="mt-4">
         Desde antes de la carrera siempre tuve una pasión por el desarrollo, mi
         primer lenguaje fue{' '}
@@ -65,14 +71,19 @@ const AboutEs = () => (
         la fortuna de verlos a todos en vivo y si es algo que le recomendaría a
         cualquiera.
       </p>
-      <p className="mt-4">
-        Soy también padre de familia, dos niñas, así que siempre en mi casa se
-        hará lo que las mujeres quieran, no que antes de que ellas llegaran no,
-        mi esposa es una mujer sumamente capaz con un gran liderazgo, a ella le
-        debo mucho de las oportunidades que he podido capturar, no hay mejor
-        fórmula que una pareja que te apoye y te impulse. Nos mudamos hace 1 año
-        a Seattle, WA, y hemos disfrutado mucho el área.
-      </p>
+      <div className="flex flex-wrap mt-4">
+        <div className="w-full md:w-1/2 pr-4">
+          <Image src={fall} alt="Picture of me and my girl walking" />
+        </div>
+        <p className="w-full md:w-1/2">
+          Soy también padre de familia, dos niñas, así que siempre en mi casa se
+          hará lo que las mujeres quieran, no que antes de que ellas llegaran
+          no, mi esposa es una mujer sumamente capaz con un gran liderazgo, a
+          ella le debo mucho de las oportunidades que he podido capturar, no hay
+          mejor fórmula que una pareja que te apoye y te impulse. Nos mudamos
+          hace 1 año a Seattle, WA, y hemos disfrutado mucho el área.
+        </p>
+      </div>
       <p className="mt-4">
         Finalmente algo que siempre me ha gustado es ayudar a las personas que
         estén interesadas en entrar o crecer en la ingeniería en sistemas y el
