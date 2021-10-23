@@ -22,13 +22,13 @@ const IndexEs = () => {
           >
             Airbnb
           </LinkText>
-          , Lo que más disfruto es pasar el tiempo con mis hijas y esposa, video
-          juegos y{' '}
+          , Lo que más disfruto es pasar el tiempo con mis hijas y esposa, los
+          video juegos y{' '}
           <LinkText href="/office" underline>
             ayudar
           </LinkText>{' '}
-          a todos que quieran entrar y crecer en la industria de Software tanto
-          en{' '}
+          a todos los que quieran entrar y crecer en la industria de Software
+          tanto en{' '}
           <TextButton onClick={setEn} underline>
             inglés
           </TextButton>{' '}

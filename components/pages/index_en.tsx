@@ -22,8 +22,8 @@ const IndexEn = () => {
           >
             Airbnb
           </LinkText>
-          , I enjoy spending time with my girls and playing video games, as well
-          as{' '}
+          , I enjoy spending time with my wife and daughters and playing video
+          games, as well as{' '}
           <LinkText href="/office" underline>
             helping
           </LinkText>{' '}
