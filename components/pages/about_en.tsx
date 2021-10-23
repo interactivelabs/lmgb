@@ -1,25 +1,25 @@
-import Image from "next/image";
-import LinkText from "../LinkText";
-import PageLangLayout from "./PageLangLayout";
-import desk from "../../public/img/desk.jpeg";
-import fall from "../../public/img/fall.jpeg";
+import Image from 'next/image';
+import LinkText from '../LinkText';
+import PageLangLayout from './PageLangLayout';
+import desk from '../../public/img/desk.jpeg';
+import fall from '../../public/img/fall.jpeg';
 
 const AboutEn = () => (
   <PageLangLayout>
     <div className="md:w-1/2 lg:w-1/2">
       <h1 className="mt-3 text-2xl">About me</h1>
       <p className="mt-4">
-        I&apos;m originally from Zacatecas, Mexico, I graduated from{" "}
+        I&apos;m originally from Zacatecas, Mexico, I graduated from{' '}
         <LinkText href="https://zacatecas.tecnm.mx" target="_blank" underline>
           Instituto Tecnológico de Zacatecas
-        </LinkText>{" "}
+        </LinkText>{' '}
         with a bachelor&apos;s in computer science with a major in Software
         Engineering. I&apos;ve been working in the field for 10+ years.
       </p>
       <p className="mt-4">
         My goal was always to be able to work at the top companies in the
         industry and I&apos;ve been fortunate enough to join some of them. (for
-        more resume details please visit my{" "}
+        more resume details please visit my{' '}
         <LinkText
           href="https://www.linkedin.com/in/luismgonzalezb/"
           underline
@@ -34,28 +34,28 @@ const AboutEn = () => (
       </div>
       <p className="mt-4">
         Even before joining my college degree I had tremendous passion for
-        software, my first programming language was{" "}
+        software, my first programming language was{' '}
         <LinkText
           href="https://el.media.mit.edu/logo-foundation/index.html"
           target="_blank"
           underline
         >
           Logo.
-        </LinkText>{" "}
+        </LinkText>{' '}
         I also learned Pascal and ASP, after that .Net and finally Web, mainly
         doing Javascript.
       </p>
       <p className="mt-4">
-        I also really enjoy playing video games, currently my main game is{" "}
+        I also really enjoy playing video games, currently my main game is{' '}
         <LinkText
           href="https://www.ea.com/games/apex-legends"
           target="_blank"
           underline
         >
           Apex Legends
-        </LinkText>{" "}
+        </LinkText>{' '}
         (a free to play game I thoroughly recommend), in general I really like
-        the shooter genre, but I also really enjoy games like{" "}
+        the shooter genre, but I also really enjoy games like{' '}
         <LinkText
           href="https://www.ageofempires.com/"
           target="_blank"
@@ -74,7 +74,7 @@ const AboutEn = () => (
         <div className="w-full md:w-1/2 pr-4 float-left">
           <Image src={fall} alt="Picture of me and my girl walking" />
         </div>
-        <p className="w-full md:w-1/2">
+        <p>
           Also I&apos;m a father of 2 girls, so we always do what the ladies say
           at home, that didn&apos;t happened before, my wife is quite an
           accomplished leader, I owe to her being able to cease some of the

@@ -44,30 +44,27 @@ const OfficeEs = () => (
           Zoom
         </LinkText>
       </p>
-      <h2 className="mt-8 text-xl">Reglas:</h2>
+      <h2 className="mt-8 text-xl">Rules:</h2>
       <ul className="mt-4 list-disc ml-4">
         <li>
-          Como ya lo mencione si te unes seguramente serás grabado y puesto en
-          el internet en youtube, así que tienes que estar de acuerdo.
+          As I mentioned be prepared to be streamed and recorded if you join the
+          zoom call, you have to agree to that.
         </li>
         <li>
-          No habrá ninguna tolerancia a comportamiento grosero o abusivo, quiero
-          que este espacio sea abierto y seguro para todos.
+          This is going to be a bilingual space so be prepared for some Spanish.
         </li>
         <li>
-          Nuevamente, no habrá ninguna tolerancia a comportamiento grosero o
-          abusivo, este espacio debe ser alentador para todos, de otra manera
-          serás inmediatamente removido y no te aceptaré en ningún evento que
-          organice en el futuro.
+          There will be ZERO tolerance for disrespectful or abusive behavior, I
+          want to be welcoming to all. You will be kicked out and banned
         </li>
       </ul>
-      <h2 className="mt-8 text-xl">Cancelaciones:</h2>
+      <h2 className="mt-8 text-xl">Cancellations:</h2>
       <p className="mt-4">
-        No estaré disponible en las fechas listadas a continuación (vacaciones,
-        eventos familiares, etc):
+        I&apos;ll be not available on the dates listed below (Holidays,
+        vacations, family events, etc):
       </p>
       <ul className="mt-4 list-disc ml-4">
-        <li>Diciembre 22</li>
+        <li>Dec 22</li>
       </ul>
     </div>
   </PageLangLayout>
