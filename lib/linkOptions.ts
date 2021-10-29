@@ -14,7 +14,11 @@ export const getHeaderOptions = (lang: Lang) => [
 ];
 
 export const getFooterOptions = () => [
-  { href: '/about', text: 'luis@lmgb.com', id: 'footer_optios_1' },
+  {
+    href: 'mailto:luis@lmgb.dev',
+    text: 'luis@lmgb.dev',
+    id: 'footer_optios_1',
+  },
   {
     href: 'https://www.linkedin.com/in/luismgonzalezb/',
     target: '_blank',
