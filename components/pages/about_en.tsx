@@ -34,7 +34,7 @@ const AboutEn = () => (
       </div>
       <p className="mt-4">
         Even before joining my college degree I had tremendous passion for
-        software, my first programming language was{' '}
+        software development, my first programming language was{' '}
         <LinkText
           href="https://el.media.mit.edu/logo-foundation/index.html"
           target="_blank"
@@ -66,9 +66,9 @@ const AboutEn = () => (
       </p>
       <p className="mt-4">
         The music I like the most is Metal, my faves are Metallica, Disturbed,
-        System of a Down, Lamb of God, etc, thankfully I&apos;ve seen them all
-        live and if you can you should totally see your favs also live,
-        it&apos;s really special.
+        System of a Down, Ill Niño, etc, thankfully I&apos;ve seen them all live
+        and if you can you should totally see your favs also live, it&apos;s
+        really special.
       </p>
       <div className="mt-4">
         <div className="w-full md:w-1/2 pr-4 float-left">
@@ -86,7 +86,7 @@ const AboutEn = () => (
         <p className="mt-4">
           Finally something I&apos;ve always loved is to be able to help people
           that might be interested in entering or growing in the Software
-          Development field, unfortunately I think latin@s we are severely
+          Development field, unfortunately I think we, latin@s, are severely
           underrepresented specially on the top companies and I&apos;m sure is
           not a lack of talent but just the need of a bit more preparation and
           have someone to lend you a hand, so if you are interested please

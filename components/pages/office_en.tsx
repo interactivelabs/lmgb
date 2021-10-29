@@ -60,7 +60,7 @@ const OfficeEs = () => (
       </ul>
       <h2 className="mt-8 text-xl">Cancellations:</h2>
       <p className="mt-4">
-        I&apos;ll be not available on the dates listed below (Holidays,
+        I&apos;ll not be available on the dates listed below (Holidays,
         vacations, family events, etc):
       </p>
       <ul className="mt-4 list-disc ml-4">

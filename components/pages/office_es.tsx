@@ -8,14 +8,14 @@ const OfficeEs = () => (
       <p className="mt-4">
         Estaré disponible una vez cada semana para tratar de contestar tus
         preguntas relacionadas con el desarrollo de software, algunos de los
-        temas que podríamos cubrir son como entrar al campo de desarrollo de
+        temas que podríamos cubrir son cómo entrar al campo de desarrollo de
         software, prepararte para entrevistas de trabajo, preguntas específicas
         sobre algún código (advertencia, he trabajado mayormente con JavaScript
-        los últimos años así que si tu pregunta es muy específica sobre Java o
-        C# o Ruby, etc, quizá no sepa la respuesta inmediatamente pero estoy
-        seguro que juntos podemos encontrarla). Quizá hagamos algunos proyectos
-        divertidos, en realidad mi objetivo es informarte y ayudarte lo mas que
-        pueda.
+        los últimos años así que si tu pregunta es muy específica sobre Java,
+        C#, Ruby, etc, quizá no sepa la respuesta inmediatamente pero estoy
+        seguro que juntos podemos encontrarla). Tal vez hagamos algunos
+        proyectos divertidos, en realidad mi objetivo es informarte y ayudarte
+        lo más que pueda.
       </p>
       <h2 className="mt-8 text-xl">Calendario:</h2>
       <p className="mt-4">Cada Viernes de 9:00 a 10:00 am CST</p>
@@ -28,13 +28,13 @@ const OfficeEs = () => (
       </p>
       <p className="mt-4">
         Trataré de publicar una agenda con las preguntas que me hayan llegado de
-        antemano. Me gustaría poder hacer preparaciones para la entrevista (si
-        estás interesado contactame al menos 24 horas antes para poder
-        prepararme).
+        antemano. Me gustaría poder hacer preparativos para la entrevista (si
+        estás interesado contáctame al menos 24 horas antes para poder tener
+        listas preguntas y material).
       </p>
       <h2 className="mt-8 text-xl">Cómo unirse:</h2>
       <p className="mt-4">
-        Si solo quieres escuchar unete en el canal de{' '}
+        Si solo quieres escuchar únete en el canal de{' '}
         <LinkText
           href="https://www.youtube.com/channel/UCJhitTFGzsZJdSflM63T3mA"
           target="_blank"
@@ -50,7 +50,7 @@ const OfficeEs = () => (
       <h2 className="mt-8 text-xl">Reglas:</h2>
       <ul className="mt-4 list-disc ml-4">
         <li>
-          Como ya lo mencione si te unes seguramente serás grabado y puesto en
+          Como ya lo mencioné si te unes seguramente serás grabado y puesto en
           el internet en youtube, así que tienes que estar de acuerdo.
         </li>
         <li>
