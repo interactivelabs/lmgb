@@ -15,8 +15,8 @@ export const getHeaderOptions = (lang: Lang) => [
 
 export const getFooterOptions = () => [
   {
-    href: 'mailto:luis@lmgb.dev',
-    text: 'luis@lmgb.dev',
+    href: 'mailto:luismgonzalezb@gmail.com',
+    text: 'luismgonzalezb@gmail.com',
     id: 'footer_optios_1',
   },
   {

@@ -44,7 +44,7 @@ const OfficeEs = () => (
         </LinkText>
         , para hacer preguntas y participar entra en el link de{' '}
         <LinkText href="https://zoom.com" target="_blank" underline>
-          Zoom
+          Zoom (El link al evento lo pondre el mismo dia)
         </LinkText>
       </p>
       <h2 className="mt-8 text-xl">Reglas:</h2>

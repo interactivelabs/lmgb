@@ -41,7 +41,7 @@ const OfficeEs = () => (
         </LinkText>{' '}
         stream, to ask a question and/or participate join the{' '}
         <LinkText href="https://zoom.com" target="_blank" underline>
-          Zoom
+          Zoom (Actual link to be posted on the day of)
         </LinkText>
       </p>
       <h2 className="mt-8 text-xl">Rules:</h2>
