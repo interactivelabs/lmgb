@@ -27,10 +27,14 @@ const OfficeEs = () => (
         grabado.
       </p>
       <p className="mt-4">
-        Trataré de publicar una agenda con las preguntas que me hayan llegado de
-        antemano. Me gustaría poder hacer preparativos para la entrevista (si
-        estás interesado contáctame al menos 24 horas antes para poder tener
-        listas preguntas y material).
+        Trataré de publicar una agenda si tengo preguntas que me hayan llegado
+        de antemano, si no hay agenda o preguntas de antemano unete y haz tu
+        pregunta en el momento.
+      </p>
+      <p>
+        Me gustaría poder hacer preparativos para la entrevista (si estás
+        interesado contáctame al menos 24 horas antes para poder tener listas
+        preguntas y material).
       </p>
       <h2 className="mt-8 text-xl">Cómo unirse:</h2>
       <p className="mt-4">
@@ -50,8 +54,9 @@ const OfficeEs = () => (
       <h2 className="mt-8 text-xl">Reglas:</h2>
       <ul className="mt-4 list-disc ml-4">
         <li>
-          Como ya lo mencioné si te unes seguramente serás grabado y puesto en
-          el internet en youtube, así que tienes que estar de acuerdo.
+          Como ya lo mencioné si te unes a la llamada de Zoom seguramente serás
+          grabado y puesto en el internet en youtube, así que tienes que estar
+          de acuerdo.
         </li>
         <li>
           Este va a ser un espacio bilingüe, así que prepárate para un poco de
