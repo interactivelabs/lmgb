@@ -28,7 +28,7 @@ const OfficeEs = () => (
         I&apos;ll try to publish an agenda if there are pre-submitted questions,
         if there is no agenda just join and ask your question live.
       </p>
-      <p>
+      <p className="mt-4">
         I would love to do some interview prep (if you are interested, contact
         me at least 24 hours to prepare this).
       </p>

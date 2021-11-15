@@ -31,7 +31,7 @@ const OfficeEs = () => (
         de antemano, si no hay agenda o preguntas de antemano unete y haz tu
         pregunta en el momento.
       </p>
-      <p>
+      <p className="mt-4">
         Me gustaría poder hacer preparativos para la entrevista (si estás
         interesado contáctame al menos 24 horas antes para poder tener listas
         preguntas y material).
