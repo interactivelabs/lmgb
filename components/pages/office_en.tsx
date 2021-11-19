@@ -43,8 +43,12 @@ const OfficeEs = () => (
           Youtube
         </LinkText>{' '}
         stream, to ask a question and/or participate join the{' '}
-        <LinkText href="https://zoom.com" target="_blank" underline>
-          Zoom (Actual link to be posted on the day of)
+        <LinkText
+          href="https://airbnb.zoom.us/j/9478730969?pwd=MUR2WnUxbCtMM3dDY1A2Ym0wb1p4Zz09"
+          target="_blank"
+          underline
+        >
+          Zoom (live)
         </LinkText>
       </p>
       <h2 className="mt-8 text-xl">Rules:</h2>
