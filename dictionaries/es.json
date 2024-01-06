@@ -1,0 +1,28 @@
+{
+  "home": {
+    "intro-work": "Actualmente soy un Ingeniero de Software colaborando en",
+    "intro-enjoy": "Lo que más disfruto es pasar el tiempo con mis hijas y esposa, los video juegos y ayudar a todos los que quieran entrar y crecer en la industria de Software tanto en"
+  },
+  "about": {
+    "title": "Acerca de mí",
+    "from": "Originario de Zacatecas, México, estudié la carrera de Ingeniería de Software en el",
+    "degree": "y he trabajado en el área de Software por más de 10 años.",
+    "goal": "Mi meta siempre fue poder trabajar dentro de las empresas líderes en el ramo, y he tenido la fortuna de poder entrar en algunas de ellas.",
+    "linkedin": "Si gustas más detalles sobre mi carrera ve mi",
+    "logo": "Desde antes de entrar a la universidad siempre tuve una pasión por el desarrollo de software, mi primer lenguaje fue",
+    "other-langs": "en la secundaria, aprendí Pascal y ASP después trabajé en .Net y finalmente Web, principalmente en Javascript.",
+    "gaming": "Otra cosa que me encanta son los videojuegos, actualmente el que más juego es",
+    "gaming-2": "(un juego gratuito que te recomiendo), en general me gusta el género de \"shooters\" pero también me gustan mucho los de estrategia como",
+    "music": "Mi música predilecta es Metal, mis bandas favoritas son Metallica, Disturbed, System of A Down, Ill Niño, etc. Afortunadamente, he tenido la oportunidad de verlos a todos en vivo y es algo que le recomendaría a cualquiera.",
+    "family": "También, soy padre dos niñas, así que siempre en mi casa se hará lo que las mujeres quieran, en realidad siempre ha sido así, mi esposa es una mujer sumamente capaz con un gran liderazgo, a ella le debo mucho de las oportunidades que he podido capturar, no hay mejor fórmula que una pareja que te apoye y te impulse. Nos mudamos hace 1 año a Seattle, WA, y hemos disfrutado mucho el área.",
+    "help": "Finalmente algo que siempre me ha gustado es ayudar a las personas que estén interesadas en entrar o crecer en la ingeniería en sistemas y el desarrollo de software. Creo que desafortunadamente los latin@s estamos muy poco representados en software en las empresas de más alto nivel y estoy seguro de que no es falta de talento, es solo un poco más de preparación y alguien que te dé un empujoncito, así que si tu eres una persona interesada por favor no dudes en ponerte en contacto.",
+    "thanks": "Gracias por leer esto, que tengas un excelente dia!"
+  },
+  "langs": {
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "joins": {
+    "and": "y"
+  }
+}
