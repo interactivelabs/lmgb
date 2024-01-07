@@ -5,8 +5,8 @@ import LinkText from "@/components/LinkText";
 import { getDictionary } from "@/lib/get-dictionary";
 import { i18n, type Locale } from "@/lib/i18n-config";
 
-import desk from "../../../public/img/desk.jpeg";
-import fall from "../../../public/img/fall.jpeg";
+import desk from "../../../public/img/desk.jpg";
+import fall from "../../../public/img/fall.jpg";
 
 export function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
@@ -42,7 +42,7 @@ export default async function About({ params }: AboutProps) {
           )
         </p>
         <div className="mt-4 flex justify-center">
-          <Image src={desk} alt="Picture of my current desk at home" />
+          <Image src={desk} alt="Picture of my current desk at home" loading="eager" />
         </div>
         <p className="mt-4">
           {about.logo}{" "}
