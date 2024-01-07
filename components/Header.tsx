@@ -13,7 +13,7 @@ interface HeaderProps {
 
 const Header = ({ lang }: HeaderProps) => (
   <header className="flex items-center justify-around w-full h-24">
-    <Link href="/">
+    <Link href={`/${lang}`}>
       <Image src={logo} alt="Lmgb logo" height={80} width={80} />
     </Link>
     <nav>

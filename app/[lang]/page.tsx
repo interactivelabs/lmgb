@@ -7,11 +7,11 @@ export function generateStaticParams() {
 }
 
 interface HomeProps {
-  lang: Locale;
+  params: { lang: Locale };
 }
 
-export default async function Home({ lang }: HomeProps) {
-  console.log(lang);
+export default async function Home({ params }: HomeProps) {
+  const { lang } = params;
   const { home, langs, joins } = await getDictionary(lang);
   return (
     <main className="flex flex-col items-center justify-center w-full flex-1 px-4 text-center">

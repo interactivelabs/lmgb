@@ -3,18 +3,22 @@ import Image from "next/image";
 import LangLinks from "@/components/LangLinks";
 import LinkText from "@/components/LinkText";
 import { getDictionary } from "@/lib/get-dictionary";
-import type { Locale } from "@/lib/i18n-config";
+import { i18n, type Locale } from "@/lib/i18n-config";
 
 import desk from "../../../public/img/desk.jpeg";
 import fall from "../../../public/img/fall.jpeg";
 
-interface AboutProps {
-  lang: Locale;
+export function generateStaticParams() {
+  return i18n.locales.map((locale) => ({ lang: locale }));
 }
 
-export default async function About({ lang }: AboutProps) {
-  console.log(lang);
-  const { about, langs, joins } = await getDictionary(lang);
+interface AboutProps {
+  params: { lang: Locale };
+}
+
+export default async function About({ params }: AboutProps) {
+  const { lang } = params;
+  const { about } = await getDictionary(lang);
   return (
     <>
       <div className="md:w-1/2 lg:w-1/2">

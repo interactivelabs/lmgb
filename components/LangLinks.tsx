@@ -13,11 +13,11 @@ export default async function LangLinks({ lang, page }: LangLinksProps) {
   return (
     <div className="flex items-center justify-around w-full h-24">
       <div className="text-center pt-8">
-        <LinkText href={`/en/${page}`} underline>
+        <LinkText href={`/en${page}`} underline>
           {langs.en}
         </LinkText>{" "}
         /{" "}
-        <LinkText href={`/es/${page}`} underline>
+        <LinkText href={`/es${page}`} underline>
           {langs.es}
         </LinkText>
       </div>
